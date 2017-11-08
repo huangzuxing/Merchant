@@ -1,0 +1,262 @@
+/*右边内容区域*/
+.tpl-page-container{
+    padding:0;
+}
+
+.tpl-content-wrapper{
+    padding-left:235px;
+    padding-top:0;
+}
+.tpl-content-wrapper-hover{
+    padding-left:75px;
+    padding-right:75px;
+}
+/*提示信息*/
+.tpl-content-msg{
+    width:100%;
+    float:left;
+    height:40px;
+    line-height:40px;
+    border:1px solid #fbeccb;
+    background: #fcf8e2;
+}
+.tpl-content-msg p{
+    margin-top:0;
+    font-size:14px;
+    color:#24b1ff;
+    float:left;
+}
+.tpl-content-msg img{
+    width:25px;
+    margin-top:7px;
+    height:25px;
+    cursor: pointer;
+    float:left;
+}
+.tpl-content-msg .left{
+    margin-left:50px;
+    margin-right:10px;
+}
+.tpl-content-msg .right{
+    float:right;
+    margin-right:30px;
+}
+.notice-msg{
+    width:100%;
+    overflow: hidden;
+    height:40px;
+    background: #fcf8e2;
+    float:left;
+    margin-bottom:10px;
+}
+.notice-msg .msg-left img{
+    width:20px;
+    height:20px;
+    margin-top:10px;
+    float:left;
+    margin-left:20px;
+}
+#container{
+    width:75%;
+    padding-left:50px;
+    float:left;
+    margin-top:10px;
+    height:20px;
+    color:#24b1ff;
+    overflow: hidden;
+}
+.notice-msg .msg-right img{
+    width:20px;
+    height:20px;
+    margin-top:10px;
+    float:right;
+    margin-right:70px;
+}
+/*面包屑*/
+.tpl-content-nav{
+    width:100%;
+    float:left;
+    padding-left:40px;
+    height:50px;
+    position: relative;
+    background: white;
+}
+.tpl-content-nav:before{
+    content:"";
+    height:20px;
+    position: absolute;
+    left:20px;
+    top:15px;
+    border:2px solid #373d41;
+}
+.tpl-content-nav ul li{
+    float:left;
+    line-height: 50px;
+    font-size:14px;
+}
+.tpl-content-nav ul li>a{
+    color:#353535;
+}
+.tpl-content-nav ul li>span{
+    font-size:16px;
+    display: inline-block;
+    padding-left:5px;
+    color:#ababab;
+    padding-right:5px;
+}
+
+
+/*内容区*/
+.tpl-portlet-components{
+    width:96%;
+    margin-left:2%;
+    float:left;
+    background: none;
+}
+.tpl-portlet-components .portlet-title{
+    border-bottom:none;
+    background: white;
+    width:100%;
+    height:250px;
+}
+.portlet-content{
+    width:35%;
+    position: relative;
+    margin:0 auto;
+    text-align:center;
+    border:1px solid white;
+}
+.portlet-content:before{
+    content:"";
+    width:30%;
+    border:1px solid #d9d9d9;
+    display: inline-block;
+    left:-30%;
+    top:125px;
+    position: absolute;
+}
+.portlet-content:after{
+    content:"";
+    width:30%;
+    border:1px solid #d9d9d9;
+    display: inline-block;
+    right:-30%;
+    top:125px;
+    position: absolute;
+}
+.portlet-content h1{
+    font-size:32px;
+    margin-top:50px;
+    margin-bottom:0;
+}
+.portlet-content span{
+    display:inline-block;
+    width:100%;
+    font-size:20px;
+}
+.portlet-content a{
+    width:30%;
+    margin-top:10px;
+    height:40px;
+    font-size:14px;
+    line-height: 40px;
+    background: #00c2c2;
+    color:white;
+    border-radius:5px;
+    display: inline-block;
+}
+.portlet-content a:hover{
+    color:white;
+}
+.widthdrew{
+    margin-right:20px;
+}
+.widthdrewList{
+    margin-left:20px;
+}
+/*总收入、交易笔数、用户数*/
+.tpl-block .row .am-u-lg-4{
+    margin-top:10px;
+}
+.row-header{
+    width:100%;
+    height:100px;
+    text-align:center;
+    font-size:28px;
+    color:white;
+    line-height: 100px;
+    background: url("/image/Icon-25.png") no-repeat;
+    background-size:100% 100%;
+}
+.row-content{
+    width:100%;
+    height:300px;
+    background:white;
+}
+.row-content ul li{
+    float:left;
+    width:33%;
+    text-align:center;
+    height:300px;
+    position: relative;
+}
+.row-content ul li:after{
+    content:"";
+    position: absolute;
+    right:0;
+    top:50px;
+    height:200px;
+    border:1px solid #eeeeee;
+}
+.row-content ul li:last-child:after{
+    content:"";
+    position: absolute;
+    right:0;
+    top:50px;
+    height:200px;
+    border:none;
+}
+.row-content ul li h3{
+    margin-top:90px;
+    font-size:24px;
+}
+.row-content ul li p{
+    font-size:14px;
+    color:#999999;
+}
+.row-bottom{
+    width:100%;
+    background:#40d1d2;
+    height:50px;
+}
+.row-bottom p{
+    color:white;
+    font-size:14px;
+    line-height: 50px;
+    padding-left:40px;
+}
+/*交易笔数*/
+.row-number{
+    background: url("/image/Icon-26.png") no-repeat;
+    background-size:100% 100%;
+}
+.row-bottom-number{
+    background: #6ec1f5;
+}
+.row-user{
+    background: url("/image/Icon-27.png") no-repeat;
+    background-size:100% 100%;
+}
+.row-agent{
+    background:url("/image/Icon-23.png") no-repeat;
+    background-size:100% 100%;
+}
+.row-bottom-agent{
+    background: #92d1a1;
+}
+.row-content-user ul li{
+    width:50%;
+}
+.row-bottom-user{
+    background: #b0c2fe;
+}

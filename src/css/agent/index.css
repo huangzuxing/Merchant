@@ -1,0 +1,151 @@
+/*右边内容区域*/
+.tpl-page-container{
+    padding:0;
+}
+
+.tpl-content-wrapper{
+    padding-left:235px;
+    padding-top:0;
+}
+.tpl-content-wrapper-hover{
+    padding-left:75px;
+    padding-right:75px;
+}
+/*内容区*/
+.tpl-portlet-components{
+    width:96%;
+    margin-left:2%;
+    float:left;
+    background: none;
+}
+.tpl-portlet-components .portlet-title{
+    border-bottom:none;
+    background: white;
+    width:100%;
+    height:250px;
+}
+.portlet-content{
+    width:35%;
+    position: relative;
+    margin:0 auto;
+    text-align:center;
+    border:1px solid white;
+}
+.portlet-content:before{
+    content:"";
+    width:30%;
+    border:1px solid #d9d9d9;
+    display: inline-block;
+    left:-30%;
+    top:125px;
+    position: absolute;
+}
+.portlet-content:after{
+    content:"";
+    width:30%;
+    border:1px solid #d9d9d9;
+    display: inline-block;
+    right:-30%;
+    top:125px;
+    position: absolute;
+}
+.portlet-content h1{
+    font-size:32px;
+    margin-top:50px;
+    margin-bottom:0;
+}
+.portlet-content span{
+    display:inline-block;
+    width:100%;
+    font-size:20px;
+}
+.portlet-content a{
+    width:30%;
+    margin-top:10px;
+    height:40px;
+    font-size:14px;
+    line-height: 40px;
+    background: #00c2c2;
+    color:white;
+    border-radius:5px;
+    display: inline-block;
+}
+/*总收入、交易笔数、用户数*/
+.tpl-block .row .am-u-lg-4{
+    margin-top:10px;
+}
+.row-header{
+    width:100%;
+    height:100px;
+    text-align:center;
+    font-size:28px;
+    color:white;
+    line-height: 100px;
+    background: url("/image/Icon-20.png") no-repeat;
+    background-size:100% 100%;
+}
+.row-content{
+    width:100%;
+    height:300px;
+    background:white;
+}
+.row-content ul li{
+    float:left;
+    width:33%;
+    text-align:center;
+    height:300px;
+    position: relative;
+}
+.row-content ul li:after{
+    content:"";
+    position: absolute;
+    right:0;
+    top:50px;
+    height:200px;
+    border:1px solid #eeeeee;
+}
+.row-content ul li:last-child:after{
+    content:"";
+    position: absolute;
+    right:0;
+    top:50px;
+    height:200px;
+    border:none;
+}
+.row-content ul li h3{
+    margin-top:90px;
+    font-size:24px;
+}
+.row-content ul li p{
+    font-size:14px;
+    color:#999999;
+}
+.row-bottom{
+    width:100%;
+    background:#40d1d2;
+    height:50px;
+}
+.row-bottom p{
+    color:white;
+    font-size:14px;
+    line-height: 50px;
+    padding-left:40px;
+}
+/*交易笔数*/
+.row-number{
+    background: url("/image/Icon-21.png") no-repeat;
+    background-size:100% 100%;
+}
+.row-bottom-number{
+    background: #6ec1f5;
+}
+.row-user{
+    background: url("/image/Icon-22.png") no-repeat;
+    background-size:100% 100%;
+}
+.row-content-user ul li{
+    width:50%;
+}
+.row-bottom-user{
+    background: #92d1a1;
+}

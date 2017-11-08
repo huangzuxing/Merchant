@@ -1,0 +1,361 @@
+/*面包屑*/
+.tpl-content-nav{
+    width:100%;
+    float:left;
+    padding-left:40px;
+    height:50px;
+    position: relative;
+    background: white;
+}
+.tpl-content-nav:before{
+    content:"";
+    height:20px;
+    position: absolute;
+    left:20px;
+    top:15px;
+    border:2px solid #373d41;
+}
+.tpl-content-nav ul li{
+    float:left;
+    line-height: 50px;
+    font-size:14px;
+}
+.tpl-content-nav ul li>a{
+    color:#353535;
+}
+.tpl-content-nav ul li>span{
+    font-size:16px;
+    display: inline-block;
+    padding-left:5px;
+    color:#ababab;
+    padding-right:5px;
+}
+
+/*表格*/
+.am-b-g{
+    width:96%;
+    position: relative;
+    float:left;
+    margin-left:2%;
+    height:800px;
+    margin-top:30px;
+    background: white;
+}
+/*
+标题
+*/
+.am-header-title{
+    width:100%;
+    float:left;
+    height:60px;
+    background: #f9fafe;
+    line-height: 60px;
+    padding-left:50px;
+}
+.am-header-title .all_right{
+    width:120px;
+    color:white;
+    margin-right:60px;
+    margin-top:10px;
+    line-height: 40px;
+    float:right;
+    text-align:center;
+    border-radius:3px;
+    background:#26cacb;
+}
+.am-header-title h3{
+    color:#999999;
+    width:30%;
+    float:left;
+    font-size:16px;
+}
+
+
+/*
+说明
+*/
+.instruction{
+    width:100%;
+    height:40px;
+    float:left;
+    position: relative;
+}
+.instruction .ins-top{
+    width:100%;
+    height:40px;
+    font-size:14px;
+    padding-left:20px;
+    cursor: pointer;
+}
+.ins-msg{
+    position: absolute;
+    top:100px;
+    right:20px;
+    width:300px;
+    margin-left:5%;
+    background: white;
+    z-index:99999999999;
+    float:left;
+    cursor: pointer;
+    border:1px solid #d9d9d9;
+}
+.ins-title{
+    width:90%;
+    margin-left:5%;
+    color:#6a6c6e;
+    float:left;
+    height:40px;
+    text-align:left;
+    line-height: 40px;
+}
+.ins-content{
+    width:90%;
+    color:#6a6c6e;
+    line-height: 20px;
+    float:left;
+    font-size:12px;
+    margin-left:5%;
+    padding-bottom:10px;
+    text-align:left;
+}
+.ins-content em{
+    color:#00c2c2;
+    font-style: normal;
+}
+.instruction .ins-top em{
+    color:#00c2cd;
+    font-style: normal;
+    font-size:12px;
+}
+.user-invate{
+    width:30%;
+    float:left;
+}
+.user-invate img{
+    width:25px;
+    height:25px;
+    border:1px solid red;
+    border-radius:25px;
+    float:right;
+}
+.am-user-name{
+    float:left;
+    width:60%;
+    text-align:left;
+    margin:0;
+    padding-top:8px;
+    padding-left:20px;
+    line-height: 25px;
+}
+/*
+商户列表表格
+*/
+.ag-table-main thead tr{
+    width:100%;
+    height:40px;
+    overflow: hidden;
+    float:left;
+}
+.ag-table-main thead tr th{
+    width:14%;
+    float:left;
+    color:#353535;
+    padding:0;
+    font-size:14px;
+    text-align: center;
+    height:40px;
+    line-height: 40px;
+}
+.ag-table-main thead tr th:last-child{
+    text-align: left;
+}
+.ag-table-main tbody tr td{
+    width:14%;
+    font-size:14px;
+    float:left;
+    text-align: center;
+    height:40px;
+    padding:0;
+    cursor: pointer;
+    line-height: 40px;
+}
+.ag-table-main tbody tr td .item{
+    cursor: pointer;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*
+营业执照.地图
+*/
+
+.m-business,.map-item{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+.v-business-license{
+    color:#00c2c2;
+    width:100%;
+    height:100%;
+}
+.m-license,.m-map{
+    position: absolute;
+    width:400px;
+    height:300px;
+    border:1px solid red;
+    top:40px;
+    left:0;
+}
+.v-map{
+    color:#00c2c2;
+}
+.ag-table-main tbody tr td .b-left{
+    float:left;
+}
+.ag-table-main tbody tr td .b-left select{
+    float:left;
+    width:60px;
+    margin-left:20px;
+    margin-top:2px;
+    margin-bottom:5px;
+    height:25px;
+}
+.ag-table-main tbody tr td .b-left option{
+    width:60px;
+    height:25px;
+    float:left;
+}
+.z-index{
+    width:100%;
+    float:left;
+    margin-top:5px;
+}
+.ag-table-main tbody tr td .cancellation{
+    width:50%;
+    float:left;
+}
+.ag-table-main tbody tr td .cancellation span{
+    width:50px;
+    display: inline-block;
+    color:white;
+    font-size:14px;
+    margin-top:3px;
+    line-height: 25px;
+    margin-left:20px;
+    border-radius:5px;
+    cursor:pointer;
+    float:left;
+    background: #ff7070;
+}
+/*
+温馨提示
+*/
+.prompting{
+    width:100%;
+    height:100%;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:999999999;
+}
+.p-cove{
+    width:100%;
+    height:100%;
+    float:left;
+    background:black;
+    opacity: .4;
+}
+.sub-c-container{
+    position: absolute;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+    width:500px;
+    height:220px;
+    background: white;
+    border-radius:5px;
+}
+.c-title{
+    width:90%;
+    height:50px;
+    float:left;
+    margin-left:5%;
+    line-height: 50px;
+}
+.c-title h4{
+    font-weight:700;
+    width:50%;
+    float:left;
+}
+.c-title .sub-right{
+    float:right;
+    height:100%;
+    width:30%;
+    position: relative;
+}
+.c-title .sub-right em{
+    font-size:28px;
+    color:#7d7d7d;
+    cursor: pointer;
+    position: absolute;
+    top:-5px;
+    right:0;
+}
+.c-content{
+    width:90%;
+    float:left;
+    margin-left:5%;
+    height:100px;
+    border-top:1px solid #f3f3f3;
+    border-bottom:1px solid #f3f3f3;
+}
+.c-content em{
+    font-size:32px;
+    float:left;
+    color:#f86161;
+    margin-top:10px;
+}
+.c-content p{
+    float:left;
+    padding-left:10px;
+    color:#9b9c99;
+    line-height: 30px;
+}
+.c-bottom{
+    width:90%;
+    float:left;
+    margin-left:5%;
+    height:30px;
+    margin-top:20px;
+}
+.c-bottom .c-sure,.c-cancel{
+    width:90px;
+    font-size:14px;
+    text-align:center;
+    border-radius:3px;
+    cursor: pointer;
+    line-height: 25px;
+}
+.c-bottom .c-sure{
+    float:right;
+    background: #24b1ff;
+    color:white;
+    margin-right:10px;
+}
+.c-bottom .c-cancel{
+    border:1px solid #cccccc;
+    margin-left:10px;
+}
+.c-left{
+    width:50%;
+    float:left;
+}
+.c-right{
+    width:50%;
+    float:left;
+}

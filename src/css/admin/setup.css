@@ -1,0 +1,92 @@
+/*标题*/
+.tpl-setup-container{
+    width:100%;
+    float:left;
+}
+.tpl-title{
+    width:100%;
+    height:80px;
+    float:left;
+    background: #f9fafe;
+}
+.tpl-title .t-left{
+    width:45%;
+    margin-left:5%;
+    line-height: 80px;
+    float:left;
+    color:#999999;
+    font-size:18px;
+}
+.tpl-title .t-right{
+    width:45%;
+    float:right;
+    height:100%;
+}
+.tpl-title .t-right .t-notice{
+    width:160px;
+    float:right;
+    margin-right:5%;
+    display: inline-block;
+    background: #00c2c2;
+    color:white;
+    margin-top:20px;
+    font-size:14px;
+    text-align:center;
+    line-height: 40px;
+}
+
+/*通知列表*/
+.i-tpl-list{
+    width:100%;
+    float:left;
+}
+.i-tpl-list ul li{
+    width:100%;
+    float:left;
+    cursor: pointer;
+    height:50px;
+    border-bottom:1px solid #f3f3f3;
+}
+.i-tpl-list ul li .sub-left{
+    width:45%;
+    float:left;
+    margin-left:5%;
+    color:#999999;
+    font-size:14px;
+    line-height: 50px;
+}
+.i-tpl-list ul li .sub-left p{
+    padding:0;
+    margin:0;
+    height:50px;
+    width:90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.i-tpl-list ul li .sub-right{
+    width:45%;
+    float:right;
+    height:100%;
+}
+.sub-right-floor{
+    width:160px;
+    height:100%;
+    float:right;
+    margin-right: 5%;
+}
+.i-tpl-list ul li .sub-right .edit,.del{
+    width:50px;
+    height:26px;
+    background: #24b1ff;
+    color:white;
+    margin-top:10px;
+    text-align:center;
+    line-height: 26px;
+    font-size:14px;
+    display: inline-block;
+}
+.i-tpl-list ul li .sub-right .del{
+    float:right;
+    background: #ff7070;
+}

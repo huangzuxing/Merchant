@@ -1,0 +1,41 @@
+/*左边导航*/
+body{
+    height:100%;
+}
+
+.tpl-left-nav{
+    height:100%;
+    border-radius:0;
+    margin-top:-5px;
+    background:#1c2b36;
+}
+.tpl-left-nav-item .nav-link:hover{
+    background: #2f4453;
+}
+.tpl-left-nav-item .nav-link:hover span{
+    color:white;
+}
+.tpl-left-nav-item .nav-link.active{
+    background: #2f4453;
+}
+.tpl-left-nav-item .nav-link.active span{
+    color:white;
+}
+.am-margin-right{
+    cursor:pointer;
+}
+.tpl-left-nav-title{
+    text-align:center;
+    padding:0;
+    height:40px;
+    cursor:pointer;
+    background: #3f5b6f;
+}
+.tpl-left-nav-title img{
+    width:20px;
+    margin-top:13px;
+    height:20px;
+}
+.iconfont{
+    font-size:18px;
+}

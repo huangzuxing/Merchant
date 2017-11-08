@@ -1,0 +1,65 @@
+/*内容区*/
+.tpl-portlet-components{
+    width:96%;
+    margin-left:2%;
+    float:left;
+    background: none;
+}
+.tpl-portlet-components .portlet-title{
+    border-bottom:none;
+    background: white;
+    width:100%;
+    height:250px;
+}
+.portlet-content{
+    width:35%;
+    position: relative;
+    margin:0 auto;
+    text-align:center;
+    border:1px solid white;
+}
+.portlet-content:before{
+    content:"";
+    width:30%;
+    border:1px solid #d9d9d9;
+    display: inline-block;
+    left:-30%;
+    top:125px;
+    position: absolute;
+}
+.portlet-content:after{
+    content:"";
+    width:30%;
+    border:1px solid #d9d9d9;
+    display: inline-block;
+    right:-30%;
+    top:125px;
+    position: absolute;
+}
+.portlet-content h1{
+    font-size:32px;
+    margin-top:50px;
+    margin-bottom:0;
+}
+.portlet-content span{
+    display:inline-block;
+    width:100%;
+    font-size:20px;
+}
+.portlet-content a{
+    width:30%;
+    margin-top:10px;
+    height:40px;
+    font-size:14px;
+    line-height: 40px;
+    background: #00c2c2;
+    color:white;
+    border-radius:5px;
+    display: inline-block;
+}
+.widthdrew{
+    margin-right:20px;
+}
+.widthdrewList{
+    margin-left:20px;
+}

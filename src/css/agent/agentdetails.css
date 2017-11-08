@@ -1,0 +1,200 @@
+/*右边内容区域*/
+.tpl-page-container{
+    padding:0;
+}
+.tpl-content-wrapper{
+    padding-left:235px;
+    padding-top:0;
+}
+.tpl-content-wrapper-hover{
+    padding-left:75px;
+    padding-right:75px;
+}
+
+/*面包屑*/
+.tpl-content-nav{
+    width:100%;
+    float:left;
+    padding-left:40px;
+    height:50px;
+    position: relative;
+    background: white;
+}
+.tpl-content-nav:before{
+    content:"";
+    height:20px;
+    position: absolute;
+    left:20px;
+    top:15px;
+    border:2px solid #373d41;
+}
+.tpl-content-nav ul li{
+    float:left;
+    line-height: 50px;
+    font-size:14px;
+}
+.tpl-content-nav ul li>a{
+    color:#353535;
+}
+.tpl-content-nav ul li>span{
+    font-size:16px;
+    display: inline-block;
+    padding-left:5px;
+    color:#ababab;
+    padding-right:5px;
+}
+/*商户信息、营业执照*/
+.am-g{
+    width:96%;
+    margin-left:2%;
+    margin-top:30px;
+    background: white;
+    float:left;
+}
+.am-g .bm-container{
+    float:left;
+    width:100%;
+    height:700px;
+    background: white;
+}
+.am-g .bm-container .left{
+    width:50%;
+    height:100%;
+    float:left;
+}
+/*商户信息*/
+.merchant-information{
+    width:100%;
+    float:left;
+    height:300px;
+}
+.m-left{
+    width:10%;
+    height:100%;
+    background: #f4f7f8;
+    text-align:center;
+    float:left;
+    line-height: 300px;
+}
+.m-left p{
+    display: inline-block;
+    color:#00c2c2;
+}
+.merchant-information .m-right{
+    width:600px;
+    height:100%;
+    float:left;
+}
+.merchant-information .m-right ul{
+    margin-top:70px;
+}
+.merchant-information .m-right ul li{
+    width:100%;
+    float:left;
+    height:40px;
+}
+.merchant-information .m-right ul li p{
+    float:left;
+    line-height: 40px;
+    width:70px;
+    text-align:right;
+    margin-left:20px;
+    font-size:14px;
+}
+.merchant-information .m-right ul li img{
+    width:40px;
+    height:40px;
+    margin-left:20px;
+}
+.merchant-information .m-right ul li input{
+
+    border:1px solid #b8c4ce;
+    float:left;
+    height:30px;
+    margin-top:5px;
+    width:400px;
+    margin-left:20px;
+}
+/*营业执照*/
+.business-license{
+    width:100%;
+    float:left;
+    height:400px;
+}
+.business-license .m-right{
+    width:80%;
+    height:100%;
+    float:left;
+}
+.business-license .m-right .license-top{
+    width:100%;
+    float:left;
+}
+.business-license .m-right .license-top p{
+    font-size:16px;
+    padding-left:30px;
+    float:left;
+}
+.business-license .m-right .license-top input{
+    float:left;
+    height:25px;
+    outline:none;
+    margin-left:10px;
+    font-size:16px;
+}
+.business-license .m-right img{
+    width:90%;
+    height:330px;
+    margin-left:30px;
+}
+.am-g .right{
+    width:50%;
+    height:100%;
+    float:left;
+}
+.merchant-map-left{
+    width:15%;
+    text-align:center;
+    height:100%;
+    float:left;
+}
+.merchant-map-left p{
+    margin-top:30px;
+}
+.merchant-map{
+    width:80%;
+    float:left;
+    height:100%;
+}
+/*
+保存
+*/
+.f-bottom{
+    width:100%;
+    float:left;
+}
+.sub-f-bottom{
+    width:50%;
+    height:50px;
+    float:left;
+}
+.f-left{
+    width:10%;
+    height:100%;
+    background:#f4f7f8;
+    float:left;
+}
+.preser{
+    width:120px;
+    height:30px;
+    margin-left:20px;
+    text-align:center;
+    line-height: 30px;
+    float:left;
+    background: #00c2c2;
+    color:white;
+}
+
+.m-item-l{
+    border:none;
+}

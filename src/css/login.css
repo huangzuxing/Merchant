@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+
+    width:100%;
+    height:100%;
+    overflow-x: hidden;
+}
+.container{
+    width:100%;
+    height:100%;
+    float:left;
+    position: fixed;
+}
+.login-h-container{
+    width:100%;
+    background:url("/image/Icon-03.png") no-repeat;
+    background-size:100% 100%;
+    float:left;
+    height:100%;
+}
+.tpl-login-max{
+    float:left;
+    margin-top:150px;
+    max-width:100%;
+
+}
+/*左边板块*/
+.tpl-login-max .row .am-u-lg-8{
+    float:left;
+}
+.row-right{
+    width:40%;
+    margin-right:10%;
+    float:right;
+}
+.row-right .logo {
+    width:100%;
+    height:240px;
+    border-bottom:1px solid #919598;
+}
+.row-right .logo img{
+    width:200px;
+    float:right;
+    margin-right:40px;
+    margin-top:30px;
+    height:200px;
+}
+.row-title h1{
+    font-size:68px;
+    width:100%;
+    text-align:right;
+    color:white;
+    font-weight:400;
+    float:right;
+    margin-top:20px;
+    margin-bottom:0;
+}
+.row-title h4{
+    float:left;
+    margin:0;
+    text-align: right;
+    width:100%;
+    font-weight:400;
+    font-size:24px;
+    color:white;
+}
+.row-title h4 em{
+    font-style:normal;
+    color:#1cbbc3;
+}
+/*右边板块*/
+
+.row-login{
+    width:320px;
+    border-radius:5px;
+    height:320px;
+    margin-top:90px;
+    background: white;
+}
+.login-container{
+    width:94%;
+    margin-left:3%;
+    float:left;
+}
+.login-header-nav{
+    width:100%;
+    float:left;
+    height:50px;
+    border-bottom:1px solid #00c2c2;
+}
+.login-header-nav ul li{
+    width:50%;
+    line-height: 50px;
+    text-align:center;
+    font-size:14px;
+    float:left;
+    cursor:pointer;
+}
+.login-header-nav ul li span{
+    display: inline-block;
+    width:70%;
+    height:49px;
+}
+.login-header-nav ul li .active{
+    border-bottom:2px solid #00c2c2;
+}
+.login-content{
+    width:100%;
+    float:left;
+}
+.login-code{
+    width:100%;
+    float:left;
+    height:260px;
+}
+.msg{
+    display: none;
+}
+.login-content .user-name{
+    width:100%;
+    float:left;
+    height:35px;
+    margin-top:50px;
+}
+.login-content .user-name input{
+    width:65%;
+    margin-left:10%;
+    border:1px solid #b8b9b3;
+    height:35px;
+    float:left;
+    text-indent:1em;
+    font-size:14px;
+    outline:none;
+    border-radius:35px;
+}
+.login-content .user-password{
+    width:100%;
+    float:left;
+    margin-top:20px;
+    height:35px;
+}
+.login-content .user-password input{
+    width:45%;
+    margin-left:10%;
+    outline:none;
+    text-indent:1em;
+    font-size:14px;
+    border:1px solid #b8b9b3;
+    height:35px;
+    border-radius:35px;
+}
+.login-footer{
+    width:35%;
+    border-radius:35px;
+    background: #00c2c2;
+    color:white;
+    margin-top:40px;
+    height:35px;
+    margin-left:10%;
+    font-size:14px;
+    text-align:center;
+    line-height: 35px;
+    float:left;
+    cursor:pointer;
+}
+/*底部友情链接*/
+.amg-footer{
+    width:100%;
+    height:100px;
+    position:fixed;
+    bottom:0;
+}
+.amg-footer .row .am-u-lg-4{
+    float:right;
+    height:100px;
+}
+.s-link{
+    width:70%;
+    color:white;
+    font-size:14px;
+    height:30px;
+}
+.s-link ul{
+    float:right;
+}
+.s-link ul li{
+    float:left;
+    padding-left:10px;
+    padding-right:10px;
+    position: relative;
+}
+.s-link ul li:after{
+    content:"";
+    height:15px;
+    position: absolute;
+    right:0;
+    top:4px;
+    border-right:1px solid #b4b4b4;
+}
+.s-link ul li:last-child:after{
+    content:"";
+    height:15px;
+    position: absolute;
+    right:0;
+    top:4px;
+    border-right:none;
+}
+.s-link ul li a{
+    color:#b4b4b4;
+}
+.s-footer{
+    width:70%;
+    float:left;
+    height:30px;
+    color:#b4b4b4;
+    text-align:right;
+    font-size:14px;
+}
+

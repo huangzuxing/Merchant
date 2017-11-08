@@ -1,0 +1,145 @@
+/*交易笔数、交易金额、用户数*/
+.c-bg{
+    float:left;
+    background: white;
+    width:100%;
+}
+.am-s-content{
+    width:96%;
+    margin-left:2%;
+    float:left;
+}
+
+/*标题*/
+[class*=am-u-]+[class*=am-u-]:last-child{
+    float:left;
+}
+.am-u-lg-4{
+    margin-top:20px;
+    float:left;
+}
+.top-title{
+    width:100%;
+    height:60px;
+    background: white;
+    border-bottom:5px solid #95aefe;
+}
+.content-title{
+    border-bottom:5px solid #00a8df;
+}
+.right-title{
+    border-bottom:5px solid #00d0a8;
+}
+.top-title .t-left{
+    width:50%;
+    float:left;
+    margin:0;
+    padding:0;
+}
+.top-title .t-left h2{
+    font-size:26px;
+    margin:0;
+    padding-left:20px;
+    font-weight:400;
+    line-height: 50px;
+}
+.top-title .t-right{
+    width:150px;
+    height:30px;
+    margin-right:30px;
+    margin-top:30px;
+    float:right;
+}
+.top-title .t-right p{
+    float:right;
+    color:#acacac;
+    font-size:14px;
+    text-align: right;
+}
+
+/*
+标题bottom颜色。
+*/
+.green{
+    border-bottom:5px solid #00d5df;
+}
+.merchant{
+    border-bottom:5px solid #8ad06e;
+}
+/*今日数据。。。。。*/
+.date-content{
+    width:96%;
+    margin-left:2%;
+    float:left;
+    height:70px;
+    border-bottom:1px solid #dbdbdb;
+}
+.date-content ul li{
+    width:20%;
+    float:left;
+    text-overflow: ellipsis;
+    word-spacing: normal;
+    text-align:center;
+}
+.date-content ul li h3{
+    width:100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding:0;
+    float:left;
+    font-size:24px;
+    margin:0;
+    /*text-align:center;*/
+}
+.date-content ul li p{
+    font-size:14px;
+    color:#acacac;
+}
+/*echart表*/
+.chart{
+    width:100%;
+    height:200px;
+    float:left;
+    border:1px solid black;
+}
+/*交易笔数 日均*/
+.date-bottom{
+    width:96%;
+    margin-left:2%;
+    height:50px;
+    float:left;
+}
+.date-number{
+    height:50px;
+    float:left;
+}
+.date-number span{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    float:left;
+    background: #95aefe;
+    border-radius:20px;
+    margin-top:15px;
+}
+.date-bottom p{
+    float:left;
+    margin:0;
+    color:#acacac;
+    font-size:14px;
+    padding-left:5px;
+    line-height: 50px;
+}
+.date-d-number{
+    float:left;
+    margin-left:20px;
+}
+.date-d-number span{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    float:left;
+    background: #dbdbdb;
+    border-radius:20px;
+    margin-top:15px;
+}

@@ -1,0 +1,52 @@
+/*头部*/
+body{
+    width:100%;
+    height:100%;
+}
+.am-topbar{
+    min-height:40px;
+    line-height: 40px;
+    margin:0;
+    background:#1c2b36;
+    border-bottom:1px solid #1c2b36;
+}
+.tpl-logo{
+    width:auto;
+    float:left;
+    display: inline-block;
+    padding-left:0;
+}
+.tpl-page-header-fixed{
+    margin-top:40px;
+}
+.am-topbar-brand{
+    height:40px;
+    line-height: 40px;
+}
+.am-topbar-brand img{
+    width:35px;
+    height:35px;
+    margin:0;
+    float:left;
+}
+.am-collapse1{
+    float:right;
+    margin-right:20px;
+}
+.am-collapse1 ul li{
+    float:left;
+}
+.am-dropdown-toggle{
+    padding-right:20px;
+    color:white;
+}
+.tpl-header-list-user-nick{
+    color:white;
+}
+.tpl-name{
+    float:left;
+}
+.tpl-header-list-link img{
+    width:30px;
+    height:30px;
+}
